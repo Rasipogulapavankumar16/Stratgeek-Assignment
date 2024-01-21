@@ -19,7 +19,7 @@ app.use(morgan('dev'));
 const routes = require('./routes/routes.js');
 
 app.get('/', (req, res) => {
-  res.send('Welcome StratGeek Internship. This is an assignment.');
+  res.send('Welcome StratGeek assignment.');
 });
 
 app.use('/api/v1', routes);
